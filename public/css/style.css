@@ -1,0 +1,81 @@
+html, body{
+    width:100%;
+    height:100%;
+}
+
+#map{
+    width:75%;
+    height:500px;
+    margin: 0 auto;
+}
+
+.info {
+    /*position: absolute;*/
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#prime-text{
+    width:75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+form {
+    width:300px;
+    margin:0 auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+#sidebar{
+    margin:0;
+    border-right: solid rgba(128, 128, 128, 0.363);
+}
+
+#sidebar{
+    margin:0;
+}
+
+#sidebar ul{
+    padding-top:15px;
+    padding-right:10px;
+    padding-left: 10px; 
+}
+
+#sidebar li {
+    margin: 3px;
+    width: 15%;
+}
+
+#nav-title{
+    background-color:rgb(179, 179, 179);
+    pointer-events: none;
+}
